@@ -76,12 +76,13 @@ form .user-details .input-box{
 form input[type="radio"]{
     display: none;
 }
- .button1{
+s
+form .button1{
     height: 45px;
     margin: 45px 0;
 }
- .button1 input{
-    height:100%;
+form .button1 input{
+    height: 45px;
     width: 100%;
     outline: none;
     color: #fff ;
@@ -92,7 +93,7 @@ form input[type="radio"]{
     letter-spacing: 1px;
 
 }
- .button1 input:hover{
+form .button1 input:hover{
      background:linear-gradient(-135deg,#71b7e6,#9b59b6);
 
 }
