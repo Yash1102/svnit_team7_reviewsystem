@@ -19,3 +19,13 @@ TechStack used are **HTML, CSS** for frontend and **Django** for backend.
 3. Install Live Server extension.
 
 4. Turn on Live Server.
+
+## Contributors
+
+1. Yash Shah **GitHub id:** Yash1102
+
+2. Tushar Padiye **GitHub id:** tusharpadiye
+
+3. Preksha Soni **GitHub id:** prekshasoni123
+
+4. Deval Patel **GitHub id:** devalhere2
