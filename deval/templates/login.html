@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="signup.css">
+    <title>Login Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'login.css' %}">
 </head>
 <body>
     <div class="container">
-        <div class="title"> Sign Up</div>
+        <div class="title"> Login </div>
         
             <form action="#">
                 <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">
-                                Username
-                        </span>
-                        <input type="text" placeholder="Enter username" required>
-
-                    </div>
+                    
                     <div class="input-box">
                         <span class="details">
                                 Email
@@ -34,22 +29,18 @@
                         <input type="password" placeholder="Enter your password" required>
                         
                     </div>
-                    <div class="input-box">
-                        <span class="details">
-                                Confirm Your Password
-                        </span>
-                        <input type="password" placeholder="Confirm Your Password" required>
-                        
-                    </div>
+                    
                 </div>
+                <div class="button1">
+                    <input type="submit" value="login">
+                </div>
+                <a href="{% url 'reg' %}">
                 <div class="button2">
-                    <input type="Submit" value="Register">
+                    <input type="button" value="Register">
+                    
                 </div>
-              
+                </a>
             </form>
-            <div class="button1">
-                <input type="Submit" value="Login" onclick="location.href = '/login.html'">
-            </div>
         </div>
 
     </div>
