@@ -1,7 +1,16 @@
 .round{
-    border-radius: 10px;
-    margin-top: 4px;
+    border-radius: 5px;
 }
 .he{
     height: 255px;
+}
+.align{
+    text-align: center;
+}
+.checked {
+    color: orange;
+}
+.td{
+    text-decoration: none;
+    color: black;
 }
