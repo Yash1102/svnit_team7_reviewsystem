@@ -97,11 +97,11 @@ form .button1 input:hover{
      background:linear-gradient(-135deg,#71b7e6,#9b59b6);
 
 }
-form .button2{
+ .button2{
     height: 45px;
     margin: 45px 0;
 }
-form .button2 input{
+ .button2 input{
     height:100%;
     width: 100%;
     outline: none;
@@ -113,7 +113,7 @@ form .button2 input{
     letter-spacing: 1px;
 
 }
-form .button2 input:hover{
+ .button2 input:hover{
      background:linear-gradient(-135deg,#1e8241,#8ec8a2);
 
 }
